@@ -184,7 +184,7 @@ letter-spacing: 0%;
     background: rgb(0, 0, 0);
 position: relative;
 width: 1440px;
-height: 4650px;
+height: 1000px;
 top: 750px;
 }
 .habit-description{
@@ -362,6 +362,106 @@ margin: 0px 50px;
     left: 750px;
     top: 30px;
     border-radius: 18px;
+}
+.teb{
+position: absolute;
+width: 1440px;
+height: 2811px;
+left: 6;
+top: 1790px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+/* align-items: center; */
+padding: 0px;
+background: black;
+}
+.te-title{
+    color: rgb(255, 255, 255);
+font-family: sans-serif;
+font-size: 48px;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+/* text-align: left; */
+margin-left: 120px;
+}
+.te-description{
+    color: rgba(255, 255, 255, 0.5);
+font-family: sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+/* text-align: left; */
+margin-left: 120px;
+}
+.ex1{
+    position: absolute;
+    width: 323px;
+    height: 218px;
+    left: 120px;
+    top: 250px;
+    background:  #15ac9800;
+    opacity: 0.5;
+}
+.ex2{
+    position: absolute;
+    width: 539px;
+    height: 256px;
+    left: 420px;
+    top: 250px;
+    background:  rgba(201, 17, 17, 0.288);
+}
+.ex3{
+    position: absolute;
+    width: 388px;
+    height: 214px;
+    left: 960px;
+    top: 250px;
+    background:  #15ac9800;
+}
+.ex4{
+    position: absolute;
+    width: 435px;
+    height: 218px;
+    left: 120px;
+    top: 468px;
+}
+.ex5{
+    position: absolute;
+    width: 408px;
+    height: 219px;
+    left: 555px;
+    top: 468px;
+}
+.ex6{
+position: absolute;
+width: 390px;
+height: 230px;
+left: 958px;
+top: 456px;
+}
+.bmi-title{
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 550px;
+   
+}
+.bmi-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    /* margin-top: 10px; */
 }
 
 @media screen and (max-width:992px) {
