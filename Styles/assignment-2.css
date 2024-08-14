@@ -366,7 +366,7 @@ margin: 0px 50px;
 .teb{
 position: absolute;
 width: 1440px;
-height: 2811px;
+height: 2800px;
 left: 6;
 top: 1790px;
 display: flex;
@@ -591,12 +591,108 @@ margin-left: 674px;
     height: 272px;
 }
 #tr1{
-    margin-left: 20px;
+    margin-left: 34px;
     margin-top: 20px;
 }
 #tr4{
-    margin-left: 20px;
+    margin-left: 34px;
     margin-top: 20px;
+}
+
+.footer{
+    background: rgba(255, 255, 255, 0.1);
+position: static;
+width: 1440px;
+height: 489px;
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+margin: 88px 0px;
+}
+.footer-title{
+    color: rgb(230, 83, 60);
+font-family: Inter;
+font-size: 70px;
+font-weight: 800;
+line-height: 120%;
+letter-spacing: 0%;
+margin-left: 190px;
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+margin-left: 190px;
+margin-top: -50px;
+}
+.get ul li{
+    list-style: none;
+    margin-left: 710px;
+    padding: 3px;
+}
+.get ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+.get-title{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 32px;
+font-weight: 700;
+line-height: 120%;
+letter-spacing: 0%;
+margin-left: 745px; 
+margin-top: -180px;
+}
+.started ul li{
+    list-style: none;
+    margin-left: 1010px;
+    padding: 3px;
+}
+.started ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+.get-title2{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 32px;
+font-weight: 700;
+line-height: 120%;
+letter-spacing: 0%;
+margin-left: 1055px; 
+margin-top: -220px;
+}
+.last{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+
+}
+.finish{
+    width: 1060px;
+    text-align: center;
+    margin-left: 160px;
+    margin-top: 90px;
 }
 
 @media screen and (max-width:992px) {
