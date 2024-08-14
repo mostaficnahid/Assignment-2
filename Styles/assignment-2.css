@@ -697,7 +697,30 @@ letter-spacing: 0.3px;
 
 @media screen and (max-width:992px) {
 }
+.bg, .nav, .habit, .bmi-chart, .calculate, .footer{
+    flex-direction: column;
+}
+
+
+.skill, .te-img {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
+    justify-items: center;
+}
 
 @media screen and (max-width:576px) {
+
+    .bg, .nav, .habit, .bmi-chart, .calculate, .footer{
+        flex-direction: column;
+    }
+    
+
+    .skill, .te-img {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+        justify-items: center;
+    }
+
+    
 
 }
